@@ -1,0 +1,16 @@
+{
+ "id": null,
+ "result": [
+    {
+    "url": "http://***.***.***.***/files/$DEVICE-NAME/katsuna_$DEVICE-NAME-DATEYYYYMMDD.zip",
+    "timestamp": "XXXXXXXXXXXX",
+    "api_level": "23",
+    "md5sum": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "filename": "katsuna_$DEVICE-NAME-DATEYYYYMMDD.zip",
+    "channel": "NIGHTLY",
+    "changes": "",
+    "incremental": ""
+    },
+  ],
+ "error": null
+}

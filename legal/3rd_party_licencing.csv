@@ -1,0 +1,20 @@
+APP,3RD PARTY CODE,LICENCE,RIGHT TO COPY,RIGHT TO MODIFY,RIGHT TO DISTRIBUTE, URL
+Katsuna_ROM,AOSP,Apache2.0,yes,yes,yes, https://source.android.com/
+CyanogenMod_Updater,CyanogenMod,GPL,yes,yes,yes (OPEN SOURCED), https://github.com/CyanogenMod/android_packages_apps_CMUpdater
+CyanogenMod_SetupWizard,CyanogenMod,Apache2.0,yes,yes,yes, https://github.com/CyanogenMod/android_packages_apps_SetupWizard
+Contacts,joda-time,Apache2.0,yes,yes,yes, http://www.joda.org/joda-time/
+Contacts,picasso,Apache2.0,yes,yes,yes, http://square.github.io/picasso/
+Contacts,roundedimageview,Apache2.0,yes,yes,yes, https://github.com/vinc3m1/RoundedImageView
+Contacts,ez-vcard,custom-license,yes,yes,yes, https://github.com/mangstadt/ez-vcard
+Contacts,fab-transformation,MIT,yes,yes,yes, https://github.com/konifar/fab-transformation
+Messages,joda-time,Apache2.0,yes,yes,yes,
+Messages,picasso,Apache2.0,yes,yes,yes,
+Messages,roundedimageview,Apache2.0,yes,yes,yes,
+Calls,joda-time,Apache2.0,yes,yes,yes,
+Calls,picasso,Apache2.0,yes,yes,yes,
+Calls,roundedimageview,Apache2.0,yes,yes,yes,
+Commons,joda-time,Apache2.0,yes,yes,yes,
+Services,android-volley,Apache2.0,yes,yes,yes, https://github.com/mcxiaoke/android-volley
+Services,google-gson,Apache2.0,yes,yes,yes, https://github.com/google/gson
+Services,Google APIs: https://developers.google.com/terms/,,,,,
+Services,joda-time,Apache2.0,yes,yes,yes,

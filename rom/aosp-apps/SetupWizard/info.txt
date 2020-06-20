@@ -1,0 +1,49 @@
+Root directory: packages/apps/KatsunaSetupWizard
+
+Key components
+--------------
+
+src/com/katsuna/setupwizard/setup/CMSetupWizardData.java	- SetupPage's coordinator.
+
+
+
+Wifi Page:
+	src:	packages/apps/Settings/src/com/android/settings/wifi/WifiSetupActivity.java
+	layout:	packages/apps/Settings/res/layout/setup_wifi_layout.xml
+
+	fragment:	WifiSettingsForSetupWizard
+
+
+
+
+
+Settings to watch:
+
+Settings.Global.DEVICE_PROVISIONED
+Settings.Secure.USER_SETUP_COMPLETE
+
+http://www.xanh.co.uk/programmically-change-device-settings/
+
+
+adb shell settings get system screen_brightness
+adb shell settings put system screen_brightness 0
+
+
+adb shell settings get secure user_setup_complete
+	on start = 0
+	after completion = 1
+
+adb shell settings get global device_provisioned
+	on start = 0
+	after completion = 1
+
+adb shell settings put secure user_setup_complete 0
+adb shell settings put global device_provisioned 0
+
+adb shell pm enable com.katsuna.setupwizard/.ui.SetupWizardActivity
+adb shell pm enable com.katsuna.setupwizard/.setup.FinishSetupReceiver
+
+adb shell pm disable com.katsuna.setupwizard/.ui.SetupWizardActivity
+adb shell am start -n com.katsuna.setupwizard/.ui.SetupWizardActivity
+
+

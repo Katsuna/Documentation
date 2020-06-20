@@ -1,0 +1,29 @@
+Root directory:	packages/apps/Dialer/InCallUI/
+
+
+Components
+
+	Activities / Fragments
+		src/com/android/incallui/InCallActivity.java		- Main activity responsible for handling calls.	
+			Contains fragments (KatsunaAnswerFragment, CallCardFragment, CallButtonFragment)
+		src/com/android/incallui/KatsunaAnswerFragment.java	- Katsuna fragment.
+		src/com/android/incallui/CallCardFragment.java		- Fragment with call info (photo, duration, etc.)
+		src/com/android/incallui/CallButtonFragment.java	- Fragment for in-call control buttons.
+
+
+	Layouts	
+		res/layout/incall_screen.xml			- Used by InCallActivity.
+		res/layout/katsuna_answer_fragment.xml		- Used by KatsunaAnswerFragment.
+		res/layout/call_button_fragment.xml		- Used by CallButtonFragment.
+		res/layout-h400dp/call_card_fragment.xml	- Used by CallCardFragment.
+		res/layout/primary_call_info.xml
+
+
+
+	styles
+		res/values/styles.xml
+
+other components:
+
+	src/com/android/incallui/StatusBarNotifier.java
+	src/com/android/incallui/AnswerPresenter.java

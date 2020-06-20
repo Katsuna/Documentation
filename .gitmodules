@@ -1,0 +1,3 @@
+[submodule "guides/production"]
+	path = guides/production
+	url = git@github.com:Katsuna/Guides.git
