@@ -22,7 +22,7 @@ The projects deal with the main challenges seniors have with smartphones:
 - Adapting to smartphone usage requires time and effort
 - User characteristics are not considered
 
-It would be great if you want to contribute or give us a Github star.
+If you like our work give us a Github star.
 
 ## How to install?
 To install the Katsuna OS on selected devices follow the below instructions:
@@ -39,7 +39,7 @@ To see information about building the custom ROM see:
 https://github.com/Katsuna/Documentation/tree/public/rom/building
 
 ## Limitations
-The project is still based on Android 8.1 as we have not rebased our software to newer versions due to resource constraints. Our goal is to be 3 months behind the latest Android version
+The project is still based on Android 8.1 as we have not rebased our software to newer versions due to resource constraints. Our goal was to be 3 months behind the latest Android version and this has been achieved until the freeze of the project.
 A Google Smartphone (Pixel 2xl and newer) is necessary if you are developing on top of AOSP: We will stick to supporting devices that offer the possibility of full customization in a legal way (without using proprietary software). Unfortunately we are not in position to give these devices to contributors, they will have to purchase them by themselves. We are open to supporting other devices from manufacturers that let developers ship a custom ROM without using proprietary code. The number of devices supported is limited and we need to work on this.
  
 ## Acknowledgments
