@@ -10,7 +10,7 @@ Also, the [buildaosp-info-2015-genymotion.pdf](buildaosp-info-2015-genymotion.pd
 
 The Katsuna ROM source is a modified AOSP source. It is structured around a modified AOSP manifest of the latest "base" AOSP manifest version we want to use.
 
-Our [manifest](https://github.com/Katsuna/manifest) downloads mostly unmodified AOSP repositories, and all the Katsuna repositories we have set up in our Github.
+Our [manifest](https://github.com/Katsuna/public_manifest) downloads mostly unmodified AOSP repositories, and all the Katsuna repositories we have set up in our Github.
 
 Once downloaded, we use "wrapper scripts" to setup the AOSP build environment, start the build, and upload to our updater servers.
 
@@ -56,13 +56,13 @@ Afterwards, the compilation can be started by using the [katsuna-build-local](ht
 
 Carefully read the [README](https://github.com/Katsuna/build_scripts/blob/master/build_server/README.md) for instructions on how to run both of them.
 
-The **ONLY** difference between compiling locally vs the server is the KApps compilation. Specifically, due to technical reasons, KApps won't be compiled *inline* using any kind of **katsuna-build-gradle** script. The compilation will skip the KApps compilation and will just bundle the latest KApps apks from the [vendor/kapps](https://github.com/Katsuna/vendor_kapps) repository.
+The **ONLY** difference between compiling locally vs the server is the KApps compilation. Specifically, due to technical reasons, KApps won't be compiled *inline* using any kind of **katsuna-build-gradle** script. The compilation will skip the KApps compilation and will just bundle the latest KApps apks from the [vendor/kapps](https://github.com/Katsuna/public_vendor_kapps) repository.
 
 This shouldn't hinder any development. If the developer wants to update the KApp apk, he should build from Android Studio and install the update on the device.
 
 
 #### Notices
 
-1. The [KatsunaCommon](https://github.com/Katsuna/frameworks_KatsunaCommon) library is being compiled both with the AOSP compilation system as a library, so that it can be used in AOSP apps like SystemUI and Settings, and is used as a library project of the Katsuna Apps.
+1. The [KatsunaCommon](https://github.com/Katsuna/public_frameworks_KatsunaCommon) library is being compiled both with the AOSP compilation system as a library, so that it can be used in AOSP apps like SystemUI and Settings, and is used as a library project of the Katsuna Apps.
 
 2. The ROM is signed with **private keys which also are used to sign the Katsuna Apps**, so that special privileges are being given by default on our Apps, on our Katsuna ROM.
