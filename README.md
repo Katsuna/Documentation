@@ -35,6 +35,8 @@ The Katsuna OS is currently supported on limited Google devices (6P, 5X, Pixel 2
 We need all the meaningful help we can get. If you want to help seniors to have a better smartphone experience designed and developed for their needs. Contact us at info@katsuna.com
 
 Everyone who would like to contribute will go through a short onboarding process to understand the project history and the various needs.
+To see information about building the custom ROM see:
+https://github.com/Katsuna/Documentation/tree/public/rom/building
 
 ## Limitations
 The project is still based on Android 8.1 as we have not rebased our software to newer versions due to resource constraints. Our goal is to be 3 months behind the latest Android version
