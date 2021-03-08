@@ -1,5 +1,5 @@
 ## About
-At Katsuna we empower seniors to use smartphones.
+At [Katsuna](https://katsuna.com/) we empower seniors to use smartphones.
 Within this project you can find source code for:
 Katsuna ecosystem of apps:
 - Contacts  
